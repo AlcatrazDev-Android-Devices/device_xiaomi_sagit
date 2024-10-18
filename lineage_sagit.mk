@@ -30,12 +30,11 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_SYSTEM_NAME := sagit
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sagit-user 8.0.0 OPR1.170623.027 V9.2.3.0.OCAMIEK release-keys" \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys
+    BuildDesc="sagit-user 8.0.0 OPR1.170623.027 V9.2.3.0.OCAMIEK release-keys" \
+    BuildFingerprint=Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys \
+    DeviceName=sagit \
+    DeviceProduct=sagit \
+    SystemName=sagit
